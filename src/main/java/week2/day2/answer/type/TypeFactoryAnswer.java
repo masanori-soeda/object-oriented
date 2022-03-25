@@ -1,7 +1,7 @@
-package week2.answer.day2.type;
+package week2.day2.answer.type;
 
-import week2.answer.day2.calculation.AdditionAnswer;
-import week2.answer.day2.calculation.SubstractionAnswer;
+import week2.day2.answer.calculation.AdditionAnswer;
+import week2.day2.answer.calculation.SubstractionAnswer;
 
 public class TypeFactoryAnswer {
 

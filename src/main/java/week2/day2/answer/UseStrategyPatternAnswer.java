@@ -1,7 +1,7 @@
-package week2.answer.day2;
+package week2.day2.answer;
 
-import week2.answer.day2.type.TypeAnswer;
-import week2.answer.day2.type.TypeFactoryAnswer;
+import week2.day2.answer.type.TypeAnswer;
+import week2.day2.answer.type.TypeFactoryAnswer;
 
 /**
  * ルール2．else句を使用しないこと

@@ -1,4 +1,4 @@
-package week2.task.day2;
+package week2.day2.task;
 
 /**
  * ルール2．else句を使用しないこと

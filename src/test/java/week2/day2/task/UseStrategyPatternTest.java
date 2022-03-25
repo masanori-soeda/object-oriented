@@ -1,4 +1,4 @@
-package week2.task.day2;
+package week2.day2.task;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

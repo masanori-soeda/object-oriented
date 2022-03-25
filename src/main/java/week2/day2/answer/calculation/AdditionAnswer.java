@@ -1,6 +1,6 @@
-package week2.answer.day2.calculation;
+package week2.day2.answer.calculation;
 
-import week2.answer.day2.type.TypeAnswer;
+import week2.day2.answer.type.TypeAnswer;
 
 public class AdditionAnswer implements TypeAnswer {
 

@@ -1,4 +1,4 @@
-package week2.answer.day2.type;
+package week2.day2.answer.type;
 
 public interface TypeAnswer {
 

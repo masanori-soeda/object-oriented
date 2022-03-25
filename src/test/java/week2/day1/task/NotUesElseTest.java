@@ -1,4 +1,4 @@
-package week2.answer.day1;
+package week2.day1.task;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -7,13 +7,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class NotUesElseAnswerTest {
+public class NotUesElseTest {
 
-	private NotUesElseAnswer it;
+	private NotUesElse it;
 
 	@BeforeEach
 	void setUp() throws Exception {
-		it = new NotUesElseAnswer();
+		it = new NotUesElse();
 	}
 
 	@ParameterizedTest(name = "得点：{0}は、Grade：{1}")

@@ -1,4 +1,4 @@
-package week2.task.day1;
+package week2.day1.answer;
 
 /**
  * ルール2．else句を使用しないこと
@@ -8,17 +8,15 @@ package week2.task.day1;
  * @author soepy
  *
  */
-public class NotUesElse {
+public class NotUesElseAnswer {
 
 	public String getGrade(int score) {
 		if (score > 80) {
 			return "A";
-		} else {
-			if (score > 60) {
-				return "B";
-			} else {
-				return "C";
-			}
 		}
+		if (score > 60) {
+			return "B";
+		}
+		return "C";
 	}
 }
