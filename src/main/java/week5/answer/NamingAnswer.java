@@ -1,9 +1,11 @@
 package week5.answer;
 
 /**
- * ƒ‹[ƒ‹5D–¼‘O‚ğÈ—ª‚µ‚È‚¢‚±‚Æ
+ * ãƒ«ãƒ¼ãƒ«5ï¼åå‰ã‚’çœç•¥ã—ãªã„ã“ã¨
  *
- * HINT1:–¼‘O‚Ì—v‘f‚ª“ñ‚Â‚ ‚é‚Ì‚Å2‚Â‚É•ª‚¯‚Ü‚· HINT2: Œ³‚Ìƒƒ\ƒbƒh‚Í–¼‘O‚ğ•Ï‚¦‚Ä“®ì‚ğ‚ ‚ç‚í‚·‚à‚Ì‚É•Ï‚¦‚Ü‚µ‚å‚¤
+ * HINT1:åå‰ã®è¦ç´ ãŒäºŒã¤ã‚ã‚‹ã®ã§2ã¤ã«åˆ†ã‘ã¾ã™
+ *
+ * HINT2: å…ƒã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯åå‰ã‚’å¤‰ãˆã¦å‹•ä½œã‚’ã‚ã‚‰ã‚ã™ã‚‚ã®ã«å¤‰ãˆã¾ã—ã‚‡ã†
  *
  * @author soepy
  *
@@ -16,11 +18,19 @@ public class NamingAnswer {
 		this.nameVo = nameVo;
 	}
 
-	public String displayFirstnameAndFamilyName() {
+	public String displayName() {
 		StringBuffer nameSb = new StringBuffer();
-		nameSb.append(nameVo.getFirstName());
+		nameSb.append(getFirstName());
 		nameSb.append(" ");
-		nameSb.append(nameVo.getFamilyName());
+		nameSb.append(getFamilyName());
 		return nameSb.toString();
+	}
+
+	private String getFamilyName() {
+		return nameVo.getFamilyName();
+	}
+
+	private String getFirstName() {
+		return nameVo.getFirstName();
 	}
 }
