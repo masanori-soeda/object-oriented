@@ -18,7 +18,7 @@ public class NamingAnswerTest {
 
 	@Test
 	void testDisplayFirstnameAndFamilyName() {
-		String actual = it.displayFirstnameAndFamilyName();
+		String actual = it.displayName();
 		assertThat(actual, is("Ichiro Suzuki"));
 	}
 }
